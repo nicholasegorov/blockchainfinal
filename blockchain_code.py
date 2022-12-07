@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#Nicholas Egorov ,Curtis Bishop, and Vithushan Vigneswaran
+#Nicholas Egorov, Curtis Bishop, and Vithushan Vigneswaran
 #December 6th 2022
 #Final Project Voting System Application
 
@@ -71,8 +71,7 @@ C1 = "JULIA"
 C2 = "CLEMENT"
 C3 = "PATRICK"
 C4 = "SANTOS"
-# Created a list so that we can check if the person people are voting for is in
-# the database
+# Created a list so that we can check if the person people are voting for is in the database
 lst = [C1,C2,C3,C4]
 
 
@@ -80,7 +79,7 @@ lst = [C1,C2,C3,C4]
 def blockadder():
     # Input for the identification of the voter
     Source = input("Input your ID:")
-    # To check if the identification matches with another vote
+    # To check if the identification matches with another vote if yes print the following message
     if Source in database:
       print("You have already voted!")
     else:
